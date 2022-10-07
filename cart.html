@@ -43,38 +43,38 @@
         <table width="100%">
             <thead>
                 <tr>
-                    <td>Remove</td>
                     <td>Image</td>
                     <td>Product</td>
                     <td>Price</td>
                     <td>Quantity</td>
                     <td>Subtotal</td>
+                    <td>Remove</td>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
-                    <td><img src="img/products/f1.jpg" alt=""></td>
-                    <td>Cartoon Astronaut T-Shirts </td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
+                <tr class="cart-row">
+                    <td><img class="cart-item cart-item-img" src="img/products/f1.jpg" alt=""></td>
+                    <td class="cart-item cart-item-title">Cartoon Astronaut T-Shirts </td>
+                    <td class="cart-item cart-item-price">$77.99</td>
+                    <td><input class="cart-quantity cart-quantity-input" type="number" value="1"></td>
+                    <td class="cart-price">$77.99</td>
+                    <td><i class="cart-quantity cart-close far fa-times-circle"></i></td>
                 </tr>
-                <tr>
-                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
-                    <td><img src="img/products/f2.jpg" alt=""></td>
-                    <td>Cartoon Astronaut T-Shirts </td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
+                <tr class="cart-row">
+                    <td><img class="cart-item cart-item-img" src="img/products/f2.jpg" alt=""></td>
+                    <td class="cart-item cart-item-title">Cartoon Astronaut T-Shirts </td>
+                    <td class="cart-item cart-item-price">$77.99</td>
+                    <td><input class="cart-quantity cart-quantity-input" type="number" value="1"></td>
+                    <td class="cart-price">$77.99</td>
+                    <td><i class="cart-quantity cart-close far fa-times-circle"></i></td>
                 </tr>
-                <tr>
-                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
-                    <td><img src="img/products/f3.jpg" alt=""></td>
-                    <td>Cartoon Astronaut T-Shirts </td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
+                <tr class="cart-row">
+                    <td><img class="cart-item cart-item-img" src="img/products/f3.jpg" alt=""></td>
+                    <td class="cart-item cart-item-title">Cartoon Astronaut T-Shirts </td>
+                    <td class="cart-item cart-item-price">$77.99</td>
+                    <td><input class="cart-quantity cart-quantity-input" type="number" value="1"></td>
+                    <td class="cart-price">$77.99</td>
+                    <td><i class="cart-quantity cart-close far fa-times-circle"></i></td>
                 </tr>
             </tbody>
         </table>
@@ -93,7 +93,7 @@
             <table>
                 <tr>
                     <td>Cart Subtotal</td>
-                    <td>$335</td>
+                    <td class="cart-total-price">$234</td>
                 </tr>
                 <tr>
                     <td>Shipping</td>
@@ -101,7 +101,7 @@
                 </tr>
                 <tr>
                     <td><strong>Total</strong></td>
-                    <td><strong>$335</strong></td>
+                    <td><strong class="cart-total-price">$234</strong></td>
                 </tr>
             </table>
             <button class="normal">Proceed to checkout</button>

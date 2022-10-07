@@ -82,7 +82,11 @@ body {
     left: 0;
 
 }
-
+#header .logo{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 #navbar {
     display: flex;
     align-items: center;
@@ -463,6 +467,7 @@ footer .col{
     margin-bottom: 20px;
 }
 footer .logo{
+    width: 150px;
     margin-bottom: 30px;
     cursor: pointer;
 }
@@ -808,29 +813,29 @@ footer a:hover{
     white-space: nowrap;
 }
 #cart table img{
-    width: 70px;
+    width: 100px;
 }
 
-#cart table td:nth-child(1){
+#cart table td:nth-child(6){
     width: 100px;
     text-align: center;
 }
-#cart table td:nth-child(2){
+#cart table td:nth-child(1){
     width: 150px;
     text-align: center;
 }
-#cart table td:nth-child(3){
+#cart table td:nth-child(2){
     width: 250px;
     text-align: center;
 }
+#cart table td:nth-child(3),
 #cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6){
+#cart table td:nth-child(5){
     width: 150px;
     text-align: center;
 }
 
-#cart table td:nth-child(5) input{
+#cart table td:nth-child(4) input{
     width: 70px;
     padding: 10px 5px 10px 15px;
 }
@@ -848,11 +853,19 @@ footer a:hover{
 #cart table tbody tr td{
     padding-top: 15px;
 }
+#cart table  i{
+    font-size: 24px;
+    cursor: pointer;
+}
+#cart table  i:hover{
+    color: red;
+}
 #cart-add{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 #coupon{
     width: 50%;
     margin-bottom: 30px;
